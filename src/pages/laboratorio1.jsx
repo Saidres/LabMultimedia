@@ -4,7 +4,7 @@ import Lab1 from "../components/lab1";
 const Laboratorio1 = () => {
   return (
     <div style={{ padding: "2rem" }}>
-      <h1>Laboratorio 2: Integración de un Escenario con Animación Mediante useFrame()</h1>
+      <h1>Laboratorio 1: Integración de un Escenario con Animación Mediante useFrame()</h1>
       <p>
         Crear un nuevo escenario donde al menos una figura geométrica tenga una animación usando useFrame().
       </p>
