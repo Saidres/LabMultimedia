@@ -12,6 +12,9 @@ import Ejercicio5 from "./pages/Ejercicio5";
 import Ejercicio6 from "./pages/Ejercicio6";
 import Ejercicio7 from "./pages/Ejercicio7";
 import Ejercicio8 from "./pages/Ejercicio8";
+import Laboratorio1 from "./pages/laboratorio1";
+import Laboratorio2 from "./pages/laboratorio2";
+
 
 
 function App() {
@@ -30,6 +33,8 @@ function App() {
           <Route path="ejercicio6" element={<Ejercicio6 />} />
           <Route path="ejercicio7" element={<Ejercicio7 />} />
           <Route path="ejercicio8" element={<Ejercicio8 />} />
+          <Route path="laboratorio1" element={<Laboratorio1 />} />
+          <Route path="laboratorio2" element={<Laboratorio2 />} />
         </Route>
       </Routes>
     </Router>

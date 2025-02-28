@@ -8,6 +8,8 @@ import Ejercicio4 from "./pages/Ejercicio4";
 import Ejercicio5 from "./pages/Ejercicio5";
 import Ejercicio6 from "./pages/Ejercicio6";
 import Ejercicio7 from "./pages/Ejercicio7";
+import Laboratorio1 from "./pages/laboratorio1";
+import Laboratorio2 from "./pages/laboratorio2";
 
 const routes = [
   { path: "/", element: <Inicio />, index: true },
@@ -20,6 +22,8 @@ const routes = [
   { path: "ejercicio5", element: <Ejercicio5 /> },
   { path: "ejercicio6", element: <Ejercicio6 /> },
   { path: "ejercicio7", element: <Ejercicio7 /> },
+  { path: "laboratorio1", element: <Laboratorio1 /> },
+  { path: "laboratorio2", element: <Laboratorio2 /> },
 ];
 
 export default routes; // ✅ Asegúrate de exportar correctamente
