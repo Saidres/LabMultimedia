@@ -16,7 +16,7 @@ function RotatingTorus() {
   return (
     <mesh ref={torusRef} position={[-6, 0, 0]}>
       <torusGeometry args={[1, 0.4, 16, 32]} />
-      <meshStandardMaterial color="hotpink" />
+      <meshStandardMaterial color="deeppink" />
     </mesh>
   );
 }
@@ -90,7 +90,7 @@ function InteractiveCone() {
       onClick={handleClick}
     >
       <coneGeometry args={[1, 2, 32]} />
-      <meshStandardMaterial color={isClicked ? "royalblue" : "crimson"} />
+      <meshStandardMaterial color={isClicked ? "royalblue" : "teal"} />
     </mesh>
   );
 }
